@@ -1,0 +1,11 @@
+[project]
+name = "bigquery-hands-on"
+version = "0.1.0"
+description = "Notebook didático sobre BigQuery com dados públicos"
+requires-python = ">=3.10"
+dependencies = [
+  "google-cloud-bigquery",
+  "pandas",
+  "jupyter",
+  "ipykernel",
+]
